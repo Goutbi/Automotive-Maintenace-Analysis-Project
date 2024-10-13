@@ -27,7 +27,7 @@ The dataset is structured using the following relationships:
 - **CustomerID** links to the customer's car data and sales data.
 - **CarID** links to the service data to track repairs.
 - **SupplierID** is linked to each service job to track supplier involvement and performance.
-
+Screenshot 2024-10-13 202818.png
 ## Key Insights
 
 ### 1. Sales Trends
