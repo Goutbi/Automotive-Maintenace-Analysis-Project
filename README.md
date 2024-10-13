@@ -27,7 +27,8 @@ The dataset is structured using the following relationships:
 - **CustomerID** links to the customer's car data and sales data.
 - **CarID** links to the service data to track repairs.
 - **SupplierID** is linked to each service job to track supplier involvement and performance.
-[Screenshot 2024-10-13 202818.png](https://github.com/Goutbi/Car-Maintenance-Analysis/blob/b6fd2dac02ab52110c4840861ecab9d464d4fb51/Screenshot%202024-10-13%20202818.png)
+![Screenshot 2024-10-13 202818](https://github.com/user-attachments/assets/db928339-8f9e-4ae0-b345-25a2a35d229f)
+
 ## Key Insights
 
 ### 1. Sales Trends
