@@ -30,7 +30,7 @@ The dataset is structured using the following relationships:
 
 ## Tableau Dashboard
 
-You can view the full interactive Tableau dashboard directly [here]([https://your-username.github.io/your-repo-name/index.html](https://github.com/Goutbi/Car-Maintenance-Analysis/blob/main/Index.html).
+You can view the full interactive Tableau dashboard directly [here](https://github.com/Goutbi/Car-Maintenance-Analysis/blob/main/Index.html).
 
 ![Dashboard Preview](https://public.tableau.com/static/images/ca/carmaintenance/Dashboard1/1_rss.png)
 
