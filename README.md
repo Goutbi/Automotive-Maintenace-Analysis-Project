@@ -160,7 +160,7 @@ The data structure consists of the following tables:
 
 ## Repository Contents
 
-- **/data**: Contains sample datasets used for the analysis.
+- **/Updated_carReapairCompanyData(1)**: [Contains sample datasets used for the analysis.](https://github.com/Goutbi/Car-Maintenance-Analysis/blob/main/Updated_CarRepairCompanyData%20(1).xlsx)
 - **/dashboards**: Power BI dashboard files.
 
 ## Getting Started
