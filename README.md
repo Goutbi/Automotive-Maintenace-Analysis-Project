@@ -151,10 +151,10 @@ The data structure consists of the following tables:
 
 ## Power BI Dashboards
 
-- Download or explore the Power BI dashboards:
-    1. [Main Dashboard - Sales Overview](#)
-    2. [Supplier Analysis Dashboard](#)
-    3. [Car Model Analysis Dashboard](#)
+- Download or explore the [Power BI dashboard]() containing:
+    1. Main Dashboard - Sales Overview.
+    2. Supplier Analysis Dashboard.
+    3. Car Model Analysis Dashboard.
 
 ---
 
