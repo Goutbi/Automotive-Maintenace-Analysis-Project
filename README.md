@@ -155,6 +155,12 @@ The data structure consists of the following tables:
     1. Main Dashboard - Sales Overview.
     2. Supplier Analysis Dashboard.
     3. Car Model Analysis Dashboard.
+       
+*Below are snaps from the dashboards*
+![Dashboard P1](https://github.com/user-attachments/assets/af8b4e0b-079e-4929-87bc-d3425fc688d8)
+![Dashboard P2](https://github.com/user-attachments/assets/1cb6aadb-2b59-40dc-8669-10d86e45aeb1)
+![Dashboard P3](https://github.com/user-attachments/assets/f3fce59f-0c17-4076-9d51-7943fa40ebc4)
+
 
 ---
 
