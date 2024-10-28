@@ -151,7 +151,7 @@ The data structure consists of the following tables:
 
 ## Power BI Dashboards
 
-- Download or explore the [Power BI dashboard](Car Maintenance Project.pbit) containing:
+- Download or explore the [Power BI dashboard](#Car Maintenance Project.pbit) containing:
     1. Main Dashboard - Sales Overview.
     2. Supplier Analysis Dashboard.
     3. Car Model Analysis Dashboard.
