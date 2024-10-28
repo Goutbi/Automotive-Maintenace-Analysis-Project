@@ -6,7 +6,7 @@ This repository contains an in-depth analysis of a car repair service company, w
 
 ## 1. Background and Overview
 
-The dataset belongs to a company in the vehicle maintenance industry. The business model involves collecting vehicles from customers, outsourcing the repairs to third-party suppliers, and delivering the repaired vehicles back. The company operates in multiple regions and has been active for over six years. This analysis aims to uncover insights to optimize business performance, focusing on the following areas:
+The dataset belongs to a company in the automotive maintenance industry. The business model involves collecting vehicles from customers, outsourcing the repairs to third-party suppliers, and delivering the repaired vehicles back. The company operates in multiple regions and has been active for over six years. This analysis aims to uncover insights to optimize business performance, focusing on the following areas:
 
 - **Sales Growth**: Analyze yearly and monthly sales patterns to identify trends.
 - **Supplier Comparison**: Compare the performance of suppliers based on revenue, customer satisfaction, and job delivery times.
@@ -20,15 +20,15 @@ This data analysis provides insights into the car repair company’s performance
 
 ### Key Findings:
 
-1. **Supplier Performance**: Supplier SP003 generates the highest revenue, maintains the fastest job completion time, and has the highest customer satisfaction.
+1. **Supplier Performance**: Supplier SP004 generates the highest revenue, even though he does not maintains the fastest job completion time, but has above average customer satisfaction. Supplier SP009 Has the highest average customer rating and slightly better job completion time but generated less revenue due to the number of jobs and amount per jobs.
 2. **Sales Trends**: Significant increases in sales were observed in August and September, coinciding with seasonal factors such as the rainy season.
 3. **Product and Service Trends**: The **Toyota Camry** was the most serviced car model, and specific job types were linked to higher customer satisfaction.
 
 ### Recommendations:
 
-1. **Optimize Supplier Performance**: Prioritize assigning jobs to **Supplier SP003**, who performs the best in terms of job completion time and customer satisfaction.
+1. **Optimize Supplier Performance**: Prioritize assigning jobs to **Supplier SP009**, who performs the best in terms of job completion time and customer satisfaction.
 2. **Targeted Marketing**: Capitalize on the increased demand during the rainy season (August and September) with targeted campaigns.
-3. **Improve Service for Lower-Rated Suppliers**: Address areas of improvement for suppliers with lower performance, such as **Supplier SP002**.
+3. **Improve Service for Lower-Rated Suppliers**: Address areas of improvement for suppliers with lower performance, such as **Supplier SP004 & SP005**.
 
 ---
 
@@ -94,19 +94,19 @@ The data structure consists of the following tables:
 #### Supplier Performance Overview
 
 - **Supplier SP003**: 
-  - **Total Revenue**: Highest among all suppliers.
-  - **Customer Rating**: 4.5/5 (best rating).
-  - **Average Job Time**: 2 days (fastest completion time).
+  - **Total Revenue**: 1.6 M (Highest Revenue).
+  - **Customer Rating**: 2.88/5 (lowest rating).
+  - **Average Job Time**: 31.8 days (moderate completion time).
+  
+- **Supplier SP009**:
+  - **Total Revenue**:  1.48 M (Moderate revenue generation).
+  - **Customer Rating**: 3.09/5 (highest rating).
+  - **Average Job Time**: 31.24 days (better than average completion time)
   
 - **Supplier SP001**:
-  - **Total Revenue**: Moderate revenue generation.
-  - **Customer Rating**: 4.0/5.
-  - **Average Job Time**: 3 days.
-  
-- **Supplier SP002**:
-  - **Total Revenue**: Below average.
-  - **Customer Rating**: 3.2/5 (lowest rating).
-  - **Average Job Time**: 5 days (longest completion time).
+  - **Total Revenue**: 1.47 M (Slightly Below average).
+  - **Customer Rating**: 3/5 (moderate rating).
+  - **Average Job Time**: 32 days (longest completion time).
 
 #### Visualization:
 ![Supplier revenue](https://github.com/user-attachments/assets/6e08ac26-8807-4dba-b5ba-736a1f75c2d4)
@@ -119,7 +119,7 @@ The data structure consists of the following tables:
 **Objective**: Analyze customer satisfaction ratings based on the car models serviced and the suppliers used.
 
 **Key Insight**:
-- Customers tend to give higher satisfaction ratings for repairs on **Toyota Camry** and **Honda Civic** models.
+- Customers tend to give higher satisfaction ratings for repairs on **Kia and Toyota**.
 - There is a clear trend showing that as the average job time increases, customer satisfaction ratings decrease.
 
 #### Visualization:
@@ -131,27 +131,27 @@ The data structure consists of the following tables:
 ## 5. Recommendations
 
 1. **Optimize Supplier Performance**:
-   - Focus more jobs towards **Supplier SP003**, as they have the best performance in terms of revenue, job time, and customer ratings.
-   - Consider improving **Supplier SP002** through additional training to reduce job time and enhance customer service.
+   - Focus more jobs towards **Supplier SP009**, as they have the best performance in terms of customer ratings and good job time to increase the revenue from it.
+   - Consider improving **Supplier SP004** through additional training to reduce job time and enhance customer service.
 
 2. **Target Marketing During Rainy Season**:
    - Invest in targeted marketing campaigns in August and September to take advantage of increased demand during the rainy season.
 
 3. **Improve Service for Low-Rating Suppliers**:
-   - Address the issues with suppliers who are receiving lower customer satisfaction ratings, particularly **SP002**.
+   - Address the issues with suppliers who are receiving lower customer satisfaction ratings, particularly **SP001**.
 
 ---
 
 ## 6. Assumptions and Caveats
 
-1. **Assumption 1**: All missing months or outliers in the data were treated by extrapolating trends from available data.
+1. **Assumption 1**: Data is generated using Python to mimick real world data.
 2. **Assumption 2**: Outlier data points were excluded unless patterns were consistently observed.
 
 ---
 
 ## Power BI Dashboards
 
-- Download or explore the [Power BI dashboard](https://app.powerbi.com/links/0oPqE54S2z?ctid=d40fd338-1985-4ffd-966b-44cf9651f207&pbi_source=linkShare&bookmarkGuid=551e3647-2c54-4acd-bab6-ed339ebbf8b1) containing:
+- Download or explore the [Power BI dashboard Power BI Service Link](https://app.powerbi.com/links/0oPqE54S2z?ctid=d40fd338-1985-4ffd-966b-44cf9651f207&pbi_source=linkShare&bookmarkGuid=d82536ea-10f5-411a-842b-8a9f99d74813) containing:
     1. Main Dashboard - Sales Overview.
     2. Supplier Analysis Dashboard.
     3. Car Model Analysis Dashboard.
@@ -161,12 +161,12 @@ The data structure consists of the following tables:
 ## Repository Contents
 
 - **/Updated_carReapairCompanyData(1)**: [Contains sample datasets used for the analysis.](https://github.com/Goutbi/Car-Maintenance-Analysis/blob/main/Updated_CarRepairCompanyData%20(1).xlsx)
-- **/dashboards**: Power BI dashboard files.
+- **/Car Maintenance Project Preview**: [Power BI dashboard files for Power BI Desktop.](https://github.com/Goutbi/Car-Maintenance-Analysis/blob/main/Car%20Maintenance%20Project%20Preview.pbit)
 
 ## Getting Started
 
-- Download the dataset from the repository.
-- Open the **.pbix** files in **Power BI Desktop** to explore the interactive dashboards.
+- Download the dataset from the repository or open the [Power BI link](https://app.powerbi.com/links/0oPqE54S2z?ctid=d40fd338-1985-4ffd-966b-44cf9651f207&pbi_source=linkShare&bookmarkGuid=551e3647-2c54-4acd-bab6-ed339ebbf8b1) in Power BI Service.
+- Open the **.pbit** files in **Power BI Desktop** to explore the interactive dashboards.
 
 ---
 
